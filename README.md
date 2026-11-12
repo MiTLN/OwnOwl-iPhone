@@ -14,6 +14,24 @@ chats in a familiar messenger-style interface.
 
 ---
 
+## What's new in v0.2
+
+- **Much faster first reply.** The app warms up when it loads and remembers each
+  conversation, so reopening a chat and asking again answers almost instantly
+  instead of re-reading the whole history.
+- **Answer length & "Continue".** Longer answers by default, and a **Continue**
+  button to extend a reply that reached its length limit.
+- **Clearer status while answering:** *thinking…* then *typing…*, with a spinner
+  while the model is thinking.
+- **Lighter on memory.** When you leave the app it frees the model from memory
+  and reloads it when you come back.
+- **Memory about you.** It can remember facts about you - only the ones you
+  confirm - and use them in later answers.
+- **Stability fixes:** no more crashes when the app goes to the background or on
+  long answers; smoother scrolling when you send a message.
+
+---
+
 ## Requirements
 
 - **An iPhone with 6 GB of RAM or more.** This is required. Examples that work:

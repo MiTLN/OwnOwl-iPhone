@@ -14,6 +14,22 @@ chats in a familiar messenger-style interface.
 
 ---
 
+## What's new in v0.3
+
+- **Faster first answer in a new chat.** Your documents and old conversations are
+  no longer pulled into every question - the assistant answers a simple question
+  right away.
+- **Memory only when you ask.** The assistant knows it has memory and looks into
+  past chats or documents only when you ask it to remember something; a new chat
+  starts clean.
+- **Documents stay in their chat.** A file you attach is used in that chat and is
+  not mixed into other chats unless you ask to recall it.
+- **Your profile is the base.** The assistant takes its name, style and what it
+  knows about you from **Settings → Companion**.
+- **Better chat titles** - based on what the conversation is about.
+- **Fixes:** saved conversations are restored reliably after the app was in the
+  background.
+
 ## What's new in v0.2
 
 - **Much faster first reply.** The app warms up when it loads and remembers each
